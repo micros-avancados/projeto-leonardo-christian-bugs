@@ -1,0 +1,14 @@
+## Usuario:
+
+codigo
+nome
+email
+grupos/permissoes
+tag rfid
+
+
+
+
+## Ponto:
+usuario
+data e hora
