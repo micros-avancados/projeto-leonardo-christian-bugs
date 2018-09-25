@@ -1,10 +1,10 @@
 # Relógio ponto
 
 ## Definição do projeto e requisitos
-     *Usaremos:
-     *PHP
-     *Postgres ou Firebase
-     *Python
+###  Usaremos:
+     * PHP
+     * Postgres ou Firebase
+     * Python
 
 Vamos criar um sistema de controle de ponto para uma empresa de pequeno porte, com leitor de rfid e display lcd.
 Os usuários utilizarão o seu cartão com etiqueta RFID para marcar os horários de chegada e saída.
