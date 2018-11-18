@@ -7,8 +7,22 @@ grupos/permissoes
 tag rfid
 
 
-
-
 ## Ponto:
 usuario
+data e hora
+
+
+----------------------------------------------
+
+tabelas criadas no sqlite3
+
+##pessoas
+
+id
+rfid
+validade
+
+
+#marcacoes
+id
 data e hora
