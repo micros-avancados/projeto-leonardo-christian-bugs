@@ -1,5 +1,4 @@
 ## Usuario:
-
 codigo
 nome
 email
@@ -17,12 +16,11 @@ data e hora
 tabelas criadas no sqlite3
 
 ##pessoas
-
 id
 rfid
 validade
 
 
-#marcacoes
-id
-data e hora
+#marcacao
+uid
+data_hora
