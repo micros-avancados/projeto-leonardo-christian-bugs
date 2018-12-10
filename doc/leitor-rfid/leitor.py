@@ -7,11 +7,21 @@ import MFRC522
 import sqlite3
 import psycopg2
 
+import socket
+from copy import *
+
 #importa as bibliotecas para trabalhar com o display
 import I2C_LCD_driver
 import socket
 import fcntl
 import struct
+
+def check_host(host='165.227.9.145'):
+    a=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    a.settimeout(.5)
+    b=a.connect_ex((host, 80))
+    retorno=copy(b)
+    return b
 
 
 if __name__ == '__main__':
@@ -23,6 +33,11 @@ if __name__ == '__main__':
     try:
         # Inicia o módulo RC522.
         LeitorRFID = MFRC522.MFRC522()
+       
+        if check_host()
+           print('tem internet')
+        else
+           print('não tem internet')
      
         print('Aproxime seu cartão RFID')
         #lcdi2c.lcd_display_string("Apro Cartao RFID", 1,0)
